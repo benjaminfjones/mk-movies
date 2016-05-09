@@ -3,7 +3,7 @@ mkmovies.py
 
 This program searches the current diectory for 'jpg' images, groups them by
 temporal locality (see 'MAX_GAP'), and produces movies from the groups.
-For example, if the current directory contains the following files:
+For example, if the current directory contains the following files::
 
     % ls -l --full-time
     -rw-r--r-- 1 bj bj  51912 2016-05-09 09:57:53.348306617 -0700 hummingbird2016050909575301.jpg
@@ -18,6 +18,7 @@ first is made up of the first four images and the second is made up of only the 
 
 Dependencies
 ------------
- - ffmpeg
- - GNU mktemp
- - Python 2.7.x or Python 3.x
+
+- ffmpeg
+- GNU mktemp
+- Python 2.7.x or Python 3.x
